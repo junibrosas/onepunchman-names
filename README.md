@@ -1,3 +1,3 @@
 # dragonball-names
 
-For all your random Star Wars character needs
+For all your random Dragon Ball character needs
