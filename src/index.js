@@ -1,9 +1,10 @@
-'use strict';
+import uniqueRandomArray from 'unique-random-array';
+const dragonBallNames = require('./names.json');
 
-var uniqueRandomArray = require('unique-random-array');
-var dragonBallNames = require('./names.json');
-
-module.exports = {
+const mainExport = {
   all: dragonBallNames,
   random: uniqueRandomArray(dragonBallNames),
 };
+
+export default mainExport;
+module.exports = mainExport; // for CommonJS compatability
