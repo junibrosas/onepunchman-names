@@ -8,7 +8,7 @@ export default {
   output: {
     path: join(__dirname, 'dist'),
     libraryTarget: 'umd',
-    library: 'dragonBallNames',
+    library: 'onePunchManNames',
   },
   devtool: 'source-map',
   module: {
