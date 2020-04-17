@@ -12,7 +12,8 @@
     "test": "cross-env NODE_ENV=test nyc mocha",
     "test:watch": "mocha --watch",
     "lint": "eslint src",
-    "validate": "npm-run-all --parallel test lint build"
+    "validate": "npm-run-all --parallel test lint build",
+    "report-coverage": "cat ./coverage/lcov.info | codecov"
   },
   "repository": {
     "type": "git",
@@ -50,7 +51,8 @@
     "webpack": "1.13.1",
     "cross-env": "2.0.0",
     "babel-register": "6.11.6",
-    "babel-plugin-istanbul": "1.0.3"
+    "babel-plugin-istanbul": "1.0.3",
+    "codecov": "1.0.1"
   },
   "nyc": {
     "all": true,
