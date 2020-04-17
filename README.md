@@ -4,7 +4,7 @@
 
 For all your random One Punch Man character needs
 
-![one-punch-man-names](other/pm.gif)
+![one-punch-man-names](other/opm.gif)
 
 ## Installation
 
