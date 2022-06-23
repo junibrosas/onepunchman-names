@@ -52,7 +52,7 @@
     "cross-env": "2.0.0",
     "babel-register": "6.11.6",
     "babel-plugin-istanbul": "1.0.3",
-    "codecov": "1.0.1"
+    "codecov": "3.8.3"
   },
   "nyc": {
     "all": true,
